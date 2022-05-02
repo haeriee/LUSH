@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: ;
+    height: 1000px;
+    
+}
+
+.container {
+    width: 1216px;
+    margin: 0 auto;
+}
+
+.container>p,.container>h1 {
+    text-align: right;
+}
+
+
+.contents-wrapper {
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(800px);
+}
+
+article {
+    width: 300px;
+    height: 400px;
+    background-color: ;
+}
+article>figure {
+}
+
