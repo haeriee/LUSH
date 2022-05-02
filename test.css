@@ -3,33 +3,63 @@
     padding: 0;
 }
 
-main{
-    background-color: ;
-    height: 1000px;
-    
+header {
+    width: 1920px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.menubox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1216px;
+}
+
+.menu {
+    color: #f1f1f1;
+    display: flex;
+    font-size: 14px;
 }
 
 .container {
+    width: 1920px;
+    height: 1240px;
+    background: url(/img/191218_article_01_170535.jpg);
+    background-size: cover;
+}
+
+.main{
     width: 1216px;
     margin: 0 auto;
+    padding: 0;
 }
 
-.container>p,.container>h1 {
-    text-align: right;
+.main > p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: 80px;
 }
 
+.main > h1 {
+    color: #f1f1f1;
+    font-size: 150px;
+    
+}
 
 .contents-wrapper {
     display: flex;
     justify-content: space-between;
-    transform: translateY(800px);
+    text-align: center;
+    transform: translateY(919px);
 }
 
-article {
-    width: 300px;
-    height: 400px;
-    background-color: ;
-}
-article>figure {
+.contents-wrapper > img {
+    width: 392px;
+    height: 392px;
 }
 
