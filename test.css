@@ -218,15 +218,31 @@ h3 {
     font-size: 24px;
     color: #7d7d7d;
 }
+.spa{
+    float: left;
+}
 
 .treatment {
     width: 864px;
     height: 516px;
 }
 
+.btn3{
+    color: #f1f1f1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.spatext{
+    color: #f1f1f1;
+    font-size: 96px;
+}
+
 .background {
     width: 100%;
-    height: 470px;
-    
-    
+    height: 469px;
+    border: 1px solid #030306;
+    background: #030306;
 }
