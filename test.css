@@ -220,6 +220,7 @@ h3 {
 }
 .spa{
     float: left;
+    margin-right: 64px;
 }
 
 .treatment {
@@ -245,4 +246,119 @@ h3 {
     height: 469px;
     border: 1px solid #030306;
     background: #030306;
+    
 }
+
+.treatbox {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campaign-box {
+    height: 891px;
+    margin-bottom: 160px;
+}
+
+.camtext{
+    font-size: 24px;
+    color: #7d7d7d;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.camtext::before {
+    display: inline-block;
+    margin: 230px 0 45px 0;
+    height: 1px;
+    background-color: #161616;
+    text-shadow: none;
+    width: 1216px;
+    content: '';
+}
+
+.camimg {
+    width: 560px;
+    height: 585px;
+    object-fit: cover;
+}
+
+.campaign {
+    display: flex;
+    justify-content: center;
+}
+
+.camimg2 {
+    margin-right: 58px;
+}
+
+.sign {
+    width: 695px;
+    height: 585px;
+}
+
+.p1 {
+    font-size: 24px;
+    color: #7d7d7d;
+    margin-bottom: 37px;
+}
+
+.p2 {
+    font-size: 48px;
+    color: #161616;
+    width: 695px;
+    height: 140px;
+    margin-bottom: 44px;
+}
+
+.p3 {
+    font-size: 16px;
+    color: #393939;
+    width: 588px;
+    height: 103px;
+    margin-bottom: 23px;
+}
+
+.p4 {
+    font-size: 16px;
+    color: #393939;
+    width: 349px;
+    height: 69px;
+    margin-bottom: 60px;
+}
+
+.btn4 {
+    outline: none;
+    border: none;
+    background: #7768A1;
+    color: #f1f1f1;
+    width: 203px;
+    height: 53px;
+}
+
+.support {
+    width: 1216px;
+    margin: 0 auto;
+}
+
+.supimg {
+    margin: 0 auto;
+}
+
+.line {
+    border: 1px solid #161616;
+}
+
+.sup1 {
+    width: 374px;
+    height: 92px;
+    margin: 0 auto;
+}
+
+
+.sup2 {
+    width: 1216px;
+    height: 150px;
+}
+
