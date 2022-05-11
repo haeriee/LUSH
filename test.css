@@ -9,6 +9,16 @@ body {
     overflow-x: hidden;
 }
 
+.sa {
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.sa.show {
+    opacity: 1;
+    transform: none;
+}
+
 header {
     width: 100%;
     height: 100px;
@@ -101,6 +111,7 @@ header {
     display: block;
     width: 392px; height: 392px;
     overflow: hidden; 
+    transform: translate(0, 100px);
   }
   
 .product { 
@@ -126,6 +137,10 @@ header {
     justify-content: space-between;
     text-align: center;
     transform: translateY(650px);
+}
+
+.wrapper {
+    transform: translate(0, 100px);
 }
 
 .wrapper p {
@@ -172,9 +187,13 @@ header {
 }
 
 
-section {
+.section {
     width: 100%;
     height: 1507px; 
+}
+
+.h2{
+    transform: translate(0, 100px);
 }
 
 .big-img {
@@ -196,10 +215,11 @@ section {
     cursor: pointer;
 }
 
-#best {
+.best {
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
+    transform: translate(0, 100px);
 }
 
 h2 {
@@ -542,6 +562,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    transform: translate(0, 100px);
 }
 
 .new-product {
@@ -552,6 +573,7 @@ h3 {
 .new-down {
     display: flex;
     justify-content: center;
+    transform: translate(0, 100px);
 }
 
 #btn2 {
@@ -609,15 +631,8 @@ h3 {
     width: 864px;
     height: 516px;
     cursor: pointer;
-    opacity: 0;
-    transition: all .5s ease;
     transform: translate(-100px, 0);
 }
-
-.treatment.show {
-    opacity: 1;
-    transform: none;
-  }
 
 .btn3{
     color: #f1f1f1;

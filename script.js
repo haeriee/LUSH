@@ -17,9 +17,9 @@ for(let i = 0 ; i < images.length; i++) {
     })
 }
 
-
-const saTriggerMargin = 300;
-const saElementList = document.querySelectorAll('.treatment');
+/*-----------------------------------------------------------------------*/
+const saTriggerMargin = 150;
+const saElementList = document.querySelectorAll('.sa');
 
 const saFunc = function() {
 for (const element of saElementList) {
@@ -33,3 +33,7 @@ for (const element of saElementList) {
 
 window.addEventListener('load', saFunc);
 window.addEventListener('scroll', saFunc);
+
+/*------------------------------------------------------------------------*/
+
+
