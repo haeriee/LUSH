@@ -247,6 +247,8 @@ h3 {
 }
 
 .subtext2 {
+    width: 598px;
+    height: 72px;
     margin-bottom: 69px; 
 }
 /*-------------------------------------------------*/
@@ -293,20 +295,12 @@ h3 {
     background-color: #493c78;
     backface-visibility:hidden;
     transform-style: preserve-3d;
-    -webkit-transform: translateY(110px) rotateX(-90deg);
-    -moz-transform: translateY(110px) rotateX(-90deg);
-    -ms-transform: translateY(110px) rotateX(-90deg);
-    -o-transform: translateY(110px) rotateX(-90deg);
     transform: translateY(110px) rotateX(-90deg);
 }
 
 .new-box1 .new-img1 .front-content1 {
     position: relative;
     top:80px;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -326,19 +320,11 @@ h3 {
 
 .new-box1:hover .new-img1{
     opacity: 0;
-    -webkit-transform: translateY(-110px) rotateX(90deg);
-    -moz-transform: translateY(-110px) rotateX(90deg);
-    -ms-transform: translateY(-110px) rotateX(90deg);
-    -o-transform: translateY(-110px) rotateX(90deg);
     transform: translateY(-110px) rotateX(90deg);
 }
 
 .new-box1:hover .new-content1 {
     opacity: 1;
-    -webkit-transform: rotateX(0);
-    -moz-transform: rotateX(0);
-    -ms-transform: rotateX(0);
-    -o-transform: rotateX(0);
     transform: rotateX(0);
 }
 
@@ -377,20 +363,12 @@ h3 {
     background-color: #3c785d;
     backface-visibility:hidden;
     transform-style: preserve-3d;
-    -webkit-transform: translateY(110px) rotateX(-90deg);
-    -moz-transform: translateY(110px) rotateX(-90deg);
-    -ms-transform: translateY(110px) rotateX(-90deg);
-    -o-transform: translateY(110px) rotateX(-90deg);
     transform: translateY(110px) rotateX(-90deg);
 }
 
 .new-box2 .new-img2 .front-content2{
     position: relative;
     top:80px;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -410,19 +388,11 @@ h3 {
 
 .new-box2:hover .new-img2{
     opacity: 0;
-    -webkit-transform: translateY(-110px) rotateX(90deg);
-    -moz-transform: translateY(-110px) rotateX(90deg);
-    -ms-transform: translateY(-110px) rotateX(90deg);
-    -o-transform: translateY(-110px) rotateX(90deg);
     transform: translateY(-110px) rotateX(90deg);
 }
 
 .new-box2:hover .new-content2 {
     opacity: 1;
-    -webkit-transform: rotateX(0);
-    -moz-transform: rotateX(0);
-    -ms-transform: rotateX(0);
-    -o-transform: rotateX(0);
     transform: rotateX(0);
 }
 
@@ -461,20 +431,12 @@ h3 {
     background-color: #785b3c;
     backface-visibility:hidden;
     transform-style: preserve-3d;
-    -webkit-transform: translateY(110px) rotateX(-90deg);
-    -moz-transform: translateY(110px) rotateX(-90deg);
-    -ms-transform: translateY(110px) rotateX(-90deg);
-    -o-transform: translateY(110px) rotateX(-90deg);
     transform: translateY(110px) rotateX(-90deg);
 }
 
 .new-box3 .new-img3 .front-content3{
     position: relative;
     top:80px;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -494,19 +456,11 @@ h3 {
 
 .new-box3:hover .new-img3{
     opacity: 0;
-    -webkit-transform: translateY(-110px) rotateX(90deg);
-    -moz-transform: translateY(-110px) rotateX(90deg);
-    -ms-transform: translateY(-110px) rotateX(90deg);
-    -o-transform: translateY(-110px) rotateX(90deg);
     transform: translateY(-110px) rotateX(90deg);
 }
 
 .new-box3:hover .new-content3 {
     opacity: 1;
-    -webkit-transform: rotateX(0);
-    -moz-transform: rotateX(0);
-    -ms-transform: rotateX(0);
-    -o-transform: rotateX(0);
     transform: rotateX(0);
 }
 /*------------------------------------------------*/
@@ -545,20 +499,12 @@ h3 {
     background-color: #5185b4;
     backface-visibility:hidden;
     transform-style: preserve-3d;
-    -webkit-transform: translateY(110px) rotateX(-90deg);
-    -moz-transform: translateY(110px) rotateX(-90deg);
-    -ms-transform: translateY(110px) rotateX(-90deg);
-    -o-transform: translateY(110px) rotateX(-90deg);
     transform: translateY(110px) rotateX(-90deg);
 }
 
 .new-box4 .new-img4 .front-content4{
     position: relative;
     top:80px;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -578,19 +524,11 @@ h3 {
 
 .new-box4:hover .new-img4{
     opacity: 0;
-    -webkit-transform: translateY(-110px) rotateX(90deg);
-    -moz-transform: translateY(-110px) rotateX(90deg);
-    -ms-transform: translateY(-110px) rotateX(90deg);
-    -o-transform: translateY(-110px) rotateX(90deg);
     transform: translateY(-110px) rotateX(90deg);
 }
 
 .new-box4:hover .new-content4 {
     opacity: 1;
-    -webkit-transform: rotateX(0);
-    -moz-transform: rotateX(0);
-    -ms-transform: rotateX(0);
-    -o-transform: rotateX(0);
     transform: rotateX(0);
 }
 
@@ -617,9 +555,11 @@ h3 {
 }
 
 #btn2 {
-    width: 392px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 392px;
+    height: 290px;
 }
 
 .btn2{
@@ -631,32 +571,33 @@ h3 {
     color: #7d7d7d;
     cursor: pointer;
     letter-spacing: 0;
-   -webkit-transition: all .28s ease-in-out;
-   transition: all .28s ease-in-out;
+    -webkit-transition: all .28s ease-in-out;
+    transition: all .28s ease-in-out;
+    padding: 25px;
 }
 
 .btn2:after, .btn2:before {
-   border: 1px solid rgba(255, 255, 255, 0);
-   bottom: 0;
-   content: " ";
-   display: block;
-   margin: 0 auto;
-   position: relative;
-   -webkit-transition: all .28s ease-in-out;
-   transition: all .28s ease-in-out;
-   width: 0;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all .28s ease-in-out;
+    transition: all .28s ease-in-out;
+    width: 0;
 }
 
 .btn2:hover:after, .btn2:hover:before {
-   border-color: #7d7d7d;
-   -webkit-transition: width 350ms ease-in-out;
-   transition: width 350ms ease-in-out;
-   width: 100%;
+    border-color: #7d7d7d;
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 100%;
 }
 
 .btn2:hover:before {
-   bottom: auto;
-   top: 0;
+    bottom: auto;
+    top: 0;
 }
 
 .spa{
